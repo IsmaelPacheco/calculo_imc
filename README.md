@@ -1,16 +1,19 @@
-# app_calculo_imc
+# Calculadora Simples de de IMC 
 
-A new Flutter project.
+Aplicativo que calcula o IMC da pessoa. 
 
-## Getting Started
+<img src="https://github.com/IsmaelPacheco/calculo_imc/blob/master/screenshots/tela-do-app.png" height="500"> <img src="https://github.com/IsmaelPacheco/calculo_imc/blob/master/screenshots/app-em-uso.gif" height="500">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Observações
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Não está sendo considerado o gênero da pessoa, foi pego apenas o conceito do cálculo para aplicar na aplicação.
+Fica como sugestão de melhoria:
+- Adicionar botões (Toggle ou Radio button) para escolha de gênero (masculino / feminino);
+- Corrigir o cálculo de acordo com o gênero;
+- Criar um classe Pessoa com os atributos (Peso, Altura e Gênero), criar métodos para calcular IMC e classificar;
+- Refatorar o código do aplicativo para utilizar a classe Pessoa;
+- Aplicar uma escala de cores para o resultado da classificação do IMC;
+- Aumentar o texto do resultado do IMC (número) e também colocar em negrito.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fique a vontade para fazer um Forx do projeto e realizar alterações necessárias.
